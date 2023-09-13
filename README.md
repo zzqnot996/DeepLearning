@@ -2,6 +2,8 @@
 
 1. 对比学习（Contrastive Learning）:研究进展精要:  https://zhuanlan.zhihu.com/p/367290573
 
+   胖胖大海:
+
    基于负例的对比学习（Contrastive Learning）与度量学习（Metric Learning）的异同点：
 
 相同点：
