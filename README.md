@@ -1,6 +1,8 @@
 # learn_deeplearning
 
-## 对比学习（Contrastive Learning）:研究进展精要:  https://zhuanlan.zhihu.com/p/367290573
+## 对比学习（Contrastive Learning）:研究进展精要:  
+
+网址 ：https://zhuanlan.zhihu.com/p/367290573
 
    胖胖大海:
 
