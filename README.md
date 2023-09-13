@@ -1,6 +1,6 @@
 # learn_deeplearning
 
-1. 对比学习（Contrastive Learning）:研究进展精要:  https://zhuanlan.zhihu.com/p/367290573
+## 对比学习（Contrastive Learning）:研究进展精要:  https://zhuanlan.zhihu.com/p/367290573
 
    胖胖大海:
 
@@ -24,3 +24,10 @@
 以基于Batch的负例方法为例，考虑两种情况：
 情况一：假如在一个Batch中的所有图片都是不同类别的（这种训练数据很难构造），那么经过两次数据增强后，有两个样本互为正例，其他2N - 2个样本都是负例，训练时拉近正例，推远负例；
 情况二：假如在一个Batch中同时存在两张狗的图片，按照自监督的预设前提，自己只和自己像，和其他都不像，那么这两张狗的图片互为负样本，模型训练时在特征空间上确实会将这两张图片的表征距离拉远，所以此时需要用到损失函数里面的温度系数，温度系数设置的越小，会把“负例”推的越远，但此时的负例可能是假负例，所以作者也讲了，温度系数设置的太小容易出现误判的负例。
+
+参考文献：
+
+训练数据偏置（Bias）问题   CASTing Your Model:Learning to Localize Improves Self-Supervised Representations
+更好构建正例的方法  Demystifying Contrastive Self-Supervised Learning:Invariances, Augmentations and Dataset Biases
+像素级学习能力  Dense Contrastive Learning for Self-Supervised Visual Pre-Training
+
